@@ -1,7 +1,3 @@
-# TaskManager
-
-Simple web application to create Tasks and include due data to complete tasks.
-
 # DefaultApi
 
 All URIs are relative to *https://TaskManager*
@@ -57,7 +53,7 @@ public class Example {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
-**id** | **BigDecimal**|  |
+ **id** | **BigDecimal**|  |
 
 ### Return type
 
@@ -69,8 +65,8 @@ No authorization required
 
 ### HTTP request headers
 
-- **Content-Type**: Not defined
-- **Accept**: Not defined
+ - **Content-Type**: Not defined
+ - **Accept**: Not defined
 
 ### HTTP response details
 | Status code | Description | Response headers |
@@ -124,8 +120,8 @@ No authorization required
 
 ### HTTP request headers
 
-- **Content-Type**: Not defined
-- **Accept**: Not defined
+ - **Content-Type**: Not defined
+ - **Accept**: Not defined
 
 ### HTTP response details
 | Status code | Description | Response headers |
@@ -171,7 +167,7 @@ public class Example {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
-**id** | **BigDecimal**|  |
+ **id** | **BigDecimal**|  |
 
 ### Return type
 
@@ -183,8 +179,8 @@ No authorization required
 
 ### HTTP request headers
 
-- **Content-Type**: Not defined
-- **Accept**: Not defined
+ - **Content-Type**: Not defined
+ - **Accept**: Not defined
 
 ### HTTP response details
 | Status code | Description | Response headers |
@@ -230,7 +226,7 @@ public class Example {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
-**id** | **BigDecimal**|  |
+ **id** | **BigDecimal**|  |
 
 ### Return type
 
@@ -242,8 +238,8 @@ No authorization required
 
 ### HTTP request headers
 
-- **Content-Type**: Not defined
-- **Accept**: Not defined
+ - **Content-Type**: Not defined
+ - **Accept**: Not defined
 
 ### HTTP response details
 | Status code | Description | Response headers |
@@ -297,8 +293,8 @@ No authorization required
 
 ### HTTP request headers
 
-- **Content-Type**: Not defined
-- **Accept**: Not defined
+ - **Content-Type**: Not defined
+ - **Accept**: Not defined
 
 ### HTTP response details
 | Status code | Description | Response headers |
@@ -344,7 +340,7 @@ public class Example {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
-**id** | **BigDecimal**|  |
+ **id** | **BigDecimal**|  |
 
 ### Return type
 
@@ -356,8 +352,8 @@ No authorization required
 
 ### HTTP request headers
 
-- **Content-Type**: Not defined
-- **Accept**: Not defined
+ - **Content-Type**: Not defined
+ - **Accept**: Not defined
 
 ### HTTP response details
 | Status code | Description | Response headers |
@@ -411,8 +407,8 @@ No authorization required
 
 ### HTTP request headers
 
-- **Content-Type**: Not defined
-- **Accept**: Not defined
+ - **Content-Type**: Not defined
+ - **Accept**: Not defined
 
 ### HTTP response details
 | Status code | Description | Response headers |
@@ -458,7 +454,7 @@ public class Example {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
-**id** | **BigDecimal**|  |
+ **id** | **BigDecimal**|  |
 
 ### Return type
 
@@ -470,13 +466,11 @@ No authorization required
 
 ### HTTP request headers
 
-- **Content-Type**: Not defined
-- **Accept**: Not defined
+ - **Content-Type**: Not defined
+ - **Accept**: Not defined
 
 ### HTTP response details
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | OK |  -  |
-
-
 

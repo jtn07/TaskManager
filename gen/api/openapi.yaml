@@ -1,0 +1,116 @@
+openapi: 3.0.3
+info:
+  description: TaskManager API
+  title: TaskManager API
+  version: 1.0.0
+servers:
+- url: https://TaskManager
+paths:
+  /tasks:
+    patch:
+      operationId: editTaskById
+      responses:
+        "200":
+          description: OK
+      summary: PATCH tasks
+      x-accepts: application/json
+  /tasks/:
+    get:
+      operationId: getAllTasks
+      responses:
+        "200":
+          description: OK
+      summary: GET tasks/
+      x-accepts: application/json
+    post:
+      operationId: createTask
+      responses:
+        "200":
+          description: OK
+      summary: POST tasks/
+      x-accepts: application/json
+  /tasks/{id}:
+    delete:
+      operationId: deleteTaskById
+      parameters:
+      - explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          format: int64
+          type: number
+        style: simple
+      responses:
+        "200":
+          description: OK
+      summary: DELETE tasks/{id}
+      x-accepts: application/json
+    get:
+      operationId: getTaskById
+      parameters:
+      - explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          format: int64
+          type: number
+        style: simple
+      responses:
+        "200":
+          description: OK
+      summary: GET tasks/{id}
+      x-accepts: application/json
+  /tasks/{id}/notes/:
+    delete:
+      operationId: deleteAllNotesByTaskId
+      parameters:
+      - explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          format: int64
+          type: number
+        style: simple
+      responses:
+        "200":
+          description: OK
+      summary: DELETE tasks/{id}/notes/
+      x-accepts: application/json
+    get:
+      operationId: getAllNotesByTaskId
+      parameters:
+      - explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          format: int64
+          type: number
+        style: simple
+      responses:
+        "200":
+          description: OK
+      summary: GET tasks/{id}/notes/
+      x-accepts: application/json
+    post:
+      operationId: addNotesToTask
+      parameters:
+      - explode: false
+        in: path
+        name: id
+        required: true
+        schema:
+          format: int64
+          type: number
+        style: simple
+      responses:
+        "200":
+          description: OK
+      summary: POST tasks/{id}/notes/
+      x-accepts: application/json
+components:
+  schemas: {}
+

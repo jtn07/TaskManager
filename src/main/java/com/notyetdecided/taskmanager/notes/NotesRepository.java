@@ -1,5 +1,6 @@
 package com.notyetdecided.taskmanager.notes;
 
+import com.notyetdecided.taskmanager.QueryConstants;
 import com.notyetdecided.taskmanager.tasks.TaskEntity;
 import org.hibernate.annotations.Parameter;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -14,7 +15,7 @@ public interface NotesRepository extends JpaRepository<NotesEntity,Long> {
 
     List<NotesEntity> findNotesEntityByTaskEntity_Id(Long taskId);
 
-    @Query("delete from NotesEntity notes where notes.taskEntity.id   =:id")
+    @Query(QueryConstants.DELETE_ALL_NOTES_OF_A_TASK)
      void deleteNotesEntityByTaskEntity_Id(@Param("id") Long taskId);
 
     //List<NotesEntity> deleteNotesEntityByTaskEntity_Id(Long id);

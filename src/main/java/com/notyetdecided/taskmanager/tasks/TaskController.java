@@ -33,7 +33,7 @@ public class TaskController {
         return deleted != null ? ResponseEntity.accepted().body(deleted): ResponseEntity.notFound().build() ;
     }
 
-    @RequestMapping(value = "{id}",method = RequestMethod.PATCH)
+    @RequestMapping(method = RequestMethod.PATCH)
     ResponseEntity<TaskEntity> editTaskById(@RequestBody EditTaskRequestBody body){
         TaskEntity updated=taskService.updateTaskById(body);
         if(updated==null)
