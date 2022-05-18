@@ -1,4 +1,4 @@
-package com.notyetdecided.taskmanager.tasks;
+package com.notyetdecided.taskmanager.tasks.DTO;
 
 import lombok.*;
 

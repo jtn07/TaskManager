@@ -2,8 +2,6 @@ package com.notyetdecided.taskmanager.tasks;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import net.bytebuddy.dynamic.loading.InjectionClassLoader;
-
 import javax.persistence.*;
 import java.time.LocalDate;
 

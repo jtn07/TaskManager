@@ -14,4 +14,5 @@ public class NotesEntity {
     private String body;
     @ManyToOne
     private TaskEntity taskEntity;
+
 }
