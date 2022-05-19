@@ -6,16 +6,16 @@ Simple web application to create Tasks and include due data to complete tasks.
 
 All URIs are relative to *https://TaskManager*
 
-Method | HTTP request | Description
-------------- | ------------- | -------------
+Method | HTTP request               | Description
+------------- |----------------------------| -------------
 [**addNotesToTask**](DefaultApi.md#addNotesToTask) | **POST** /tasks/{id}/notes/ | POST tasks/{id}/notes/
-[**createTask**](DefaultApi.md#createTask) | **POST** /tasks/ | POST tasks/
+[**createTask**](DefaultApi.md#createTask) | **POST** /tasks/           | POST tasks/
 [**deleteAllNotesByTaskId**](DefaultApi.md#deleteAllNotesByTaskId) | **DELETE** /tasks/{id}/notes/ | DELETE tasks/{id}/notes/
-[**deleteTaskById**](DefaultApi.md#deleteTaskById) | **DELETE** /tasks/{id} | DELETE tasks/{id}
-[**editTaskById**](DefaultApi.md#editTaskById) | **PATCH** /tasks | PATCH tasks
+[**deleteTaskById**](DefaultApi.md#deleteTaskById) | **DELETE** /tasks/{id}     | DELETE tasks/{id}
+[**editTaskById**](DefaultApi.md#editTaskById) | **PATCH** /tasks           | PATCH tasks
 [**getAllNotesByTaskId**](DefaultApi.md#getAllNotesByTaskId) | **GET** /tasks/{id}/notes/ | GET tasks/{id}/notes/
-[**getAllTasks**](DefaultApi.md#getAllTasks) | **GET** /tasks/ | GET tasks/
-[**getTaskById**](DefaultApi.md#getTaskById) | **GET** /tasks/{id} | GET tasks/{id}
+[**getAllTasks**](DefaultApi.md#getAllTasks) | **GET** /tasks/            | GET tasks/
+[**getTaskById**](DefaultApi.md#getTaskById) | **GET** /tasks/{id}        | GET tasks/{id}
 
 
 <a name="addNotesToTask"></a>
